@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iLovePDF Clone</title>
+  <link rel="stylesheet" href="prak2.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="logo action-btn">
+        <span class="logo-text">i</span>
+        <span class="logo-heart">❤️</span>
+        <span class="logo-pdf">PDF</span>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <span class="nav-item action-btn">MERGE PDF</span>
+        <span class="nav-item action-btn">SPLIT PDF</span>
+        <span class="nav-item action-btn">COMPRESS PDF</span>
+        <span class="nav-item action-btn">CONVERT PDF</span>
+      </nav>
+    </div>
+
+    <div class="nav-right">
+      <button class="btn-login action-btn">Login</button>
+      <button class="btn-signup action-btn">Sign up</button>
+      
+      <button class="icon-apps action-btn" aria-label="Apps">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="main-content">
+    
+    <section class="hero-section">
+      <h1>Every tool you need to work with PDFs in one place</h1>
+      <p>Every tool you need to use PDFs, at your fingertips. All are 100% FREE and easy to use!</p>
+    </section>
+
+    <!-- Filter Tab -->
+    <div class="filter-container">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="workflows">Workflows</button>
+      <button class="filter-btn" data-category="organize">Organize PDF</button>
+      <button class="filter-btn" data-category="optimize">Optimize PDF</button>
+      <button class="filter-btn" data-category="convert">Convert PDF</button>
+      <button class="filter-btn" data-category="edit">Edit PDF</button>
+      <button class="filter-btn" data-category="security">PDF Security</button>
+      <button class="filter-btn" data-category="intelligence">PDF Intelligence</button>
+    </div>
+
+    <!-- Grid Card dirender lewat JS -->
+    <section class="grid-container" id="gridCards"></section>
+
+    <section class="hero-section2">
+      <h1>The PDF software trusted by million users </h1>
+      <p>iLovePDF is your number one web app for editing PDF with ease. Enjoy all the tools you need to work efficiently with your digital documents while keeping your data safe and secure.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-col">
+          <h4>PRODUCT</h4>
+          <ul>
+            <li><span>Home</span></li>
+            <li><span>Features</span></li>
+            <li><span>Pricing</span></li>
+            <li><span>Tools</span></li>
+            <li><span>FAQ</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>RESOURCES</h4>
+          <ul>
+            <li><span>iLovePDF Desktop</span></li>
+            <li><span>iLovePDF Mobile</span></li>
+            <li><span>iLoveSign</span></li>
+            <li><span>iLoveAPI</span></li>
+            <li><span>iLoveIMG</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>SOLUTIONS</h4>
+          <ul>
+            <li><span>Business</span></li>
+            <li><span>Education</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>LEGAL</h4>
+          <ul>
+            <li><span>Security</span></li>
+            <li><span>Privacy policy</span></li>
+            <li><span>Terms & conditions</span></li>
+            <li><span>Cookies</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><span>About us</span></li>
+            <li><span>Contact us</span></li>
+            <li><span>Blog</span></li>
+            <li><span>Press</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="social-icons">
+          <span class="action-btn">𝕏</span>
+          <span class="action-btn">f</span>
+          <span class="action-btn">in</span>
+          <span class="action-btn">📷</span>
+          <span class="action-btn">🎵</span>
+          <span class="action-btn">🤖</span>
+        </div>
+        <p class="copyright">© iLovePDF_Clone 2026 ® - made by M Davin Ardiansyah (3054)</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="prak2.js"></script>
+</body>
+</html>
