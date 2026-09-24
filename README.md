@@ -6,3 +6,5 @@ saya mengambil inspirasi atau clone dari web ilovepdf dengan mengambil beberapa 
 **Dynamic Grid Rendering:** Memanfaatkan JavaScript DOM Manipulation untuk merender 20 kartu subjek/tools secara dinamis dari Array of Objects.
 **Interactive Category Filtering:** Pengguna dapat menyaring (*filter*) kartu tools berdasarkan kategori (Workflows, Organize, Optimize, dll.).
 **Mobile Navigation Menu:** Fitur *hamburger toggle menu* pada layar HP/Tablet.
+
+Berikut link deploy nya : https://davinh107.github.io/Tugas-Slicing-web/
